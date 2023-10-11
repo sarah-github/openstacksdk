@@ -241,7 +241,7 @@ class ImageCloudMixin:
             (optional, defaults to None)
         :param str container: Name of the container in swift where images
             should be uploaded for import if the cloud requires such a thing.
-            (optiona, defaults to 'images')
+            (optional, defaults to 'images')
         :param str md5: md5 sum of the image file. If not given, an md5 will
             be calculated.
         :param str sha256: sha256 sum of the image file. If not given, an md5
